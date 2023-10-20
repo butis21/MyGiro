@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font: 14px Segoe UI;
+    background-color: #fff;
+}
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+    display: block;
+    width: 100%;
+}
+
+/*шапка*/
+.button-1 {
+    background-color: #ffa23f;
+    border-radius: 5px;
+    border: 2px solid #ffa23f;
+    color: white;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 13px;
+    transition: 0.5s;
+}
+
+.button-2 {
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.shadows {
+    box-shadow: 0 3px 5px #e6e6e6;
+}
+
+.hat {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    padding: 10px 0px;
+    max-width: 1000px;
+    justify-content: space-between;
+}
+
+.hat2 {
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+/*главный экран*/
+.LogoName {
+    color: #000;
+    text-decoration: none;
+    margin-right: auto;
+    list-style-type: none;
+}
+.menu {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+.menu-item a {
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.menu-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.background-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), #fff url("../IMG/mainimg.jpg") no-repeat center top / cover;
+    margin: auto;
+    height: 600px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+}
+
+.firm {
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 55px;
+    color: rgb(255, 255, 255);
+}
+
+.text-1 {
+    margin: auto;
+}
+
+.align-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.description-1 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+}
+
+.description-2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
