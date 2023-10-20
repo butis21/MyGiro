@@ -567,8 +567,32 @@ body {
         font-size: 9px;
     }
     
+    .seeds {
+        scale: 0.6;
+    }
+
     body {
         font-size: 12px;
+    }
+
+    span {
+        font-size: 5px;
+    }
+
+    .align-2 {
+        font-size: 5px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin: auto;
+        display: flex;
+    }
+
+    .subscription {
+        list-style-type: none;
+        display: flex;
+        margin: 0;
+        scale: 0.8;
     }
 
     .container {
@@ -578,6 +602,17 @@ body {
     .menu-item a {
         margin-left: 15px;
         font-size: 10px;
+    }
+
+    .button-1 {
+        background-color: #ffa23f;
+        border-radius: 5px;
+        border: 1px solid #ffa23f;
+        color: white;
+        padding: 5px 5px;
+        font-weight: bold;
+        font-size: 6px;
+        transition: 0.5s;
     }
 
     .background-1 {
