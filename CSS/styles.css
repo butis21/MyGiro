@@ -562,12 +562,21 @@ body {
     color:white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 740px) {
     * {
         font-size: 9px;
     }
-    
+    .menu-item {
+        scale: 0.6;
+    }
+
+    .LogoName {
+        scale: 1.4;
+    }
+
     .seeds {
+        margin-left: auto;
+        margin-right: auto;
         scale: 0.6;
     }
 
@@ -681,6 +690,14 @@ body {
 
     .menu-2 a {
         color: rgb(51, 51, 51);
+    }
+
+    .menu-product {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin: auto;
+        display: flex;
     }
 
     .product1,
