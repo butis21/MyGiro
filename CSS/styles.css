@@ -445,27 +445,27 @@ body {
     margin-bottom: 30px;
 }
 .bg1{
-    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), #FFF url("/IMG/1.jpg") no-repeat center top / cover ; 
+    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), #FFF url("../IMG/1.jpg") no-repeat center top / cover ; 
     display: flex; 
     height: 200px; 
     width: 200px;
 }
 .bg2{
-    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), #FFF url("/IMG/2.jpg") no-repeat center top / cover ; 
+    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), #FFF url("../IMG/2.jpg") no-repeat center top / cover ; 
     margin-left: 66px;
     display: flex; 
     height: 200px; 
     width: 200px;
 }
 .bg3{
-    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), #FFF url("/IMG/3.jpg") no-repeat center top / cover ; 
+    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), #FFF url("../IMG/3.jpg") no-repeat center top / cover ; 
     margin-left: 66px;
     display: flex; 
     height: 200px; 
     width: 200px;
 }
 .bg4{
-    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), #FFF url("/IMG/4.jpg") no-repeat center top / cover ; 
+    background: linear-gradient(rgba(0, 0, 0, 0.582), rgba(0, 0, 0, 0.582)), #FFF url("../IMG/4.jpg") no-repeat center top / cover ; 
     margin-left: 66px;
     display: flex; 
     height: 200px; 
