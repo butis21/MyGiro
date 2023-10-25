@@ -1,3 +1,31 @@
+.caller {
+    position: absolute;
+    top: 50;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    transform: translateY(-50%);
+    transition: opacity 0.5s, transform 0.5s;
+    visibility: hidden;
+    opacity: 0;
+    border-radius: 10px;
+    z-index: 9999;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-item {
+    font-size: 14px;
+}
+
+.is-open{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
 * {
     box-sizing: border-box;
 }
@@ -562,12 +590,13 @@ body {
     color:white;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 700px) {
     * {
         font-size: 9px;
     }
+    
     .menu-item {
-        scale: 0.6;
+        scale: 0.9;
     }
 
     .LogoName {
@@ -588,7 +617,7 @@ body {
     }
 
     span {
-        font-size: 5px;
+        font-size: 10px;
     }
 
     .align-2 {
@@ -664,6 +693,16 @@ body {
     }
 
     .subscription input {
+        width: 150px;
+        padding-right: 10px;
+    }
+
+
+    .caller {
+        margin-bottom: 20px;
+    }
+
+    .caller input {
         width: 150px;
         padding-right: 10px;
     }
